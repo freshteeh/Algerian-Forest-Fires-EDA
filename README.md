@@ -1,21 +1,23 @@
 # Algerian Forest Fires Data Analysis & EDA
 
-Este repositório contém o processo de limpeza de dados e a análise exploratória (EDA) do **Algerian Forest Fires Dataset**[cite: 12]. O conjunto de dados abrange observações de duas regiões da Argélia (Bejaia e Sidi-Bel Abbes) coletadas entre junho e setembro de 2012[cite: 12].
+# Algerian Forest Fires Data Analysis & EDA
 
-## 📊 Sobre o Conjunto de Dados
-O dataset contém 244 instâncias com registros meteorológicos e índices do sistema FWI (Fire Weather Index)[cite: 12]:
-* **Data:** Dia, mês (junho a setembro) e ano (2012)[cite: 12]
-* **Variáveis Meteorológicas:** Temperatura, Umidade Relativa (RH), Velocidade do Vento (Ws) e Chuva (Rain)[cite: 12]
-* **Componentes FWI:** FFMC, DMC, DC, ISI, BUI e FWI[cite: 12]
-* **Classes:** Classificação entre ocorrência de incêndio (`fire`) e ausência de incêndio (`not fire`)[cite: 12]
+This repository contains the data cleaning process and Exploratory Data Analysis (EDA) for the **Algerian Forest Fires Dataset**[cite: 12]. The dataset covers observations from two regions in Algeria (Bejaia and Sidi-Bel Abbes) collected between June and September 2012[cite: 12].
 
-## 🛠️ Etapas do Projeto
-1. **Limpeza de Dados:** Tratamento de valores ausentes, divisão e criação da coluna de regiões, remoção de espaços em branco nos nomes das colunas e conversão de tipos de dados para inteiros e flutuantes.
-2. **Análise Exploratória (EDA):** Geração de gráficos estatísticos, análise de proporção de classes por meio de gráficos de pizza e estudo da matriz de correlação entre as variáveis climáticas e os índices de incêndio.
+## 📊 Dataset Overview
+The dataset contains instances with weather observations and Fire Weather Index (FWI) system components[cite: 12]:
+* **Date:** Day, month (June to September), and year (2012)[cite: 12]
+* **Weather Observations:** Temperature (max), Relative Humidity (RH), Wind Speed (Ws), and Rain[cite: 12]
+* **FWI Components:** FFMC, DMC, DC, ISI, BUI, and FWI[cite: 12]
+* **Classes:** Classified into `fire` and `not fire` categories[cite: 12]
 
-## 🚀 Tecnologias Utilizadas
-* Python[cite: 12]
-* Pandas[cite: 12]
-* NumPy[cite: 12]
-* Matplotlib[cite: 12]
-* Seaborn[cite: 12]
+## 🛠️ Project Steps
+1. **Data Cleaning:** Handling missing values, creating and splitting data by region, stripping whitespaces from column names, and converting data types to appropriate numeric formats.
+2. **Exploratory Data Analysis (EDA):** Generating statistical visualizations, class distribution pie charts, and analyzing the correlation matrix between weather variables and forest fire indicators.
+
+## 🚀 Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
